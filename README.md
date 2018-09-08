@@ -8,3 +8,4 @@ Repository to push in code changes related to my learning in Angular world.
 2) Communicate data among components
   2.1.) In order to communicate data between components that does not have parent-child relationship, use a Service. Here, I've added a DataService. The service uses the  BehaviorSubject in order to publish the change to all the subscribers.
   2.2.) Understand the difference between BehaviorSubject and Subject. Added notes in the DataService.
+ 3) NgModel - Two-Way DataBinding
