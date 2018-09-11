@@ -16,14 +16,16 @@ export class UploaderComponent implements OnInit {
       //  persons.Push(new Person());
     }
 
+    // Properties
     message: string = "";
+    showMessage: boolean = false;
 
     ngOnInit() {
         this.data.curretMessage.subscribe(input => this.message = input);
     }
     
     NewMessage() {
-
+        this.showMessage = !this.showMessage;
     }
 }
 
