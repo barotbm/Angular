@@ -2,9 +2,9 @@
 Repository to push in code changes related to my learning in Angular world.
 
 # Getting Started 
-1) Angular
+1) Angular:
 https://angular.io/guide/quickstart
-2) .NET Core
+2) .NET Core:
 https://docs.microsoft.com/en-us/dotnet/core/get-started?tabs=windows
 
 # Content
