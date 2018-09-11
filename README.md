@@ -1,4 +1,4 @@
-# Angular
+# Idea
 Repository to push in code changes related to my learning in Angular world.
 
 # Getting Started 
