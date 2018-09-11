@@ -1,5 +1,5 @@
 # Idea
-Repository to push in code changes related to my learning in Angular world.
+Repository to push in code changes related to my learning in Angular world along with .NET Core.
 
 # Getting Started 
 1) Angular:
