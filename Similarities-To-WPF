@@ -1,0 +1,6 @@
+Component = UserControl in WPF
+DataBinding = DataBinding in WPF
+Templates = Data/Control templates in WPF
+Styles = Styles in WPF
+Directive = Behavior in WPF
+Router-Outlet = ContentControl in WPF
