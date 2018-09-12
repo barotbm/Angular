@@ -6,6 +6,9 @@ Repository to push in code changes related to my learning in Angular world along
 https://angular.io/guide/quickstart
 2) .NET Core:
 https://docs.microsoft.com/en-us/dotnet/core/get-started?tabs=windows
+- Upgraded AspNetCore to v2.1.4
+3) SQL Server 2017 Express Edition
+https://www.microsoft.com/en-us/sql-server/sql-server-downloads
 
 # Content
 
