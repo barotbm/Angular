@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, HostListener, Renderer2, ElementRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
@@ -12,6 +12,8 @@ import { CounterComponent } from './components/counter/counter.component';
 
 import { UploaderComponent } from './components/uploader/uploader.component';
 import { DataService } from '../../data.service';
+import { HoverOverDirective } from './HoverOverDirective';
+
 @NgModule({
     providers: [DataService],
     declarations: [
@@ -20,7 +22,8 @@ import { DataService } from '../../data.service';
         CounterComponent,
         FetchDataComponent,
         HomeComponent,
-        UploaderComponent
+        UploaderComponent,
+        HoverOverDirective
     ],
     imports: [
         CommonModule,
