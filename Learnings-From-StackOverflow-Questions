@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/52334123/wait-for-background-image-css-style-to-fully-load , Usage of @Output and ngAfterViewInit. Here, the directive is publishing an event using EventEmitter once the image gets loaded.
