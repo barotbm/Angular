@@ -1,0 +1,5 @@
+For Directive, the selector should have doulbe quotes and brackets i.e. @Directive(
+    {
+        selector: "[HoverOverDirective]",
+    }
+)
