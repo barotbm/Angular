@@ -23,10 +23,12 @@
 
   <ItemGroup>
     <None Remove="ClientApp\app\HoverOverDirective.ts" />
+    <None Remove="ClientApp\app\meterToCentimeterPipe.ts" />
   </ItemGroup>
 
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\app\HoverOverDirective.ts" />
+    <TypeScriptCompile Include="ClientApp\app\meterToCentimeterPipe.ts" />
   </ItemGroup>
 
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">

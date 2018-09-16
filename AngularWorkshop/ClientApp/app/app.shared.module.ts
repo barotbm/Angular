@@ -13,6 +13,7 @@ import { CounterComponent } from './components/counter/counter.component';
 import { UploaderComponent } from './components/uploader/uploader.component';
 import { DataService } from '../../data.service';
 import { HoverOverDirective } from './HoverOverDirective';
+import { meterToCetimeterPipe } from './meterToCentimeterPipe';
 
 @NgModule({
     providers: [DataService],
@@ -23,7 +24,8 @@ import { HoverOverDirective } from './HoverOverDirective';
         FetchDataComponent,
         HomeComponent,
         UploaderComponent,
-        HoverOverDirective
+        HoverOverDirective,
+        meterToCetimeterPipe
     ],
     imports: [
         CommonModule,
