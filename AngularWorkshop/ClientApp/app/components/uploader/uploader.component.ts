@@ -25,7 +25,7 @@ export class UploaderComponent implements OnInit {
         this.data.curretMessage.subscribe(input => this.message = input);
     }
     
-    NewMessage() {
+    ShowMessage() {
         this.showMessage = !this.showMessage;
     }
 }

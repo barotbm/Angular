@@ -1,13 +1,12 @@
-﻿<h1 HoverOverDirective>Uploader Component</h1>
-
-<h2 >{{message | uppercase}}</h2>
+﻿<h1 HoverOverDirective>Directive - hover over to see the demo</h1>
 
 <input *ngIf="showMessage" [(ngModel)]="message" />
 
-<button (click)="NewMessage()">New Message</button>
+<button (click)="ShowMessage()">Click (*ngIf example)</button>
 
 <h1> Examples of pipes</h1>
 
 <h2> {{1000 | currency:display:'symbol'}}</h2>
 
 <h2>{{ 5 | meterToCentimeterPipe }}CM -  this is a custom pipe</h2>
+<h2>{{'Convert string to Json' | json}}</h2>
