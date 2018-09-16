@@ -4,3 +4,4 @@ Templates = Data/Control templates in WPF
 Styles = Styles in WPF
 Directive = Behavior in WPF
 Router-Outlet = ContentControl in WPF
+Pipes = StringFormat in WPF
