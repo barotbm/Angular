@@ -21,3 +21,4 @@ The first thing is to understand the architecture that revolves around Component
   2.2.) Understand the difference between BehaviorSubject and Subject. Added notes in the DataService.
  3) NgModel - Two-Way DataBinding
   3.1) Added an example for Event binding. Added an example of how to use NgIf.
+ 4) Added examples to use HostListener and HostBinding.
