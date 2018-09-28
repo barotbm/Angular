@@ -1,5 +1,11 @@
-For Directive, the selector should have doulbe quotes and brackets i.e. @Directive(
+==> For Directive, the selector should have doulbe quotes and brackets i.e. @Directive(
     {
         selector: "[HoverOverDirective]",
     }
-)
+    )
+    
+==> The order of the routes in the configuration matters and this is by design.
+The router uses a first-match wins strategy when matching routes, so more specific routes should be placed above less specific routes.
+
+==> Most routing applications should add a <base> element to the index.html as the first child in the <head> tag to tell the router
+how to compose navigation URLs.

@@ -1,3 +1,4 @@
+TODO:: ADD EXAMPLES FOR BOTH i.e. STRING FORMAT, CONVERTER for WPF and PIPES FOR ANGULAR
 Component = UserControl in WPF
 DataBinding = DataBinding in WPF
 Templates = Data/Control templates in WPF

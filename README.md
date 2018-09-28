@@ -22,3 +22,4 @@ The first thing is to understand the architecture that revolves around Component
  3) NgModel - Two-Way DataBinding
   3.1) Added an example for Event binding. Added an example of how to use NgIf.
  4) Added examples to use HostListener and HostBinding.
+ 5) Added examples for Pipe as well as custom pipe.
