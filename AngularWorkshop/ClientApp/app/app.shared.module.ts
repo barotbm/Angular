@@ -14,6 +14,7 @@ import { UploaderComponent } from './components/uploader/uploader.component';
 import { DataService } from '../../data.service';
 import { HoverOverDirective } from './HoverOverDirective';
 import { meterToCetimeterPipe } from './meterToCentimeterPipe';
+import { UploaderChildComponent } from './components/uploader-child/uploader-child.component'
 
 @NgModule({
     providers: [DataService],
@@ -25,7 +26,8 @@ import { meterToCetimeterPipe } from './meterToCentimeterPipe';
         HomeComponent,
         UploaderComponent,
         HoverOverDirective,
-        meterToCetimeterPipe
+        meterToCetimeterPipe,
+        UploaderChildComponent
     ],
     imports: [
         CommonModule,

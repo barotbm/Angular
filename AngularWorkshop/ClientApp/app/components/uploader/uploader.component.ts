@@ -1,6 +1,7 @@
 ﻿import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../../../data.service'
 import { HoverOverDirective } from '../../HoverOverDirective';
+import { UploaderChildComponent } from '../uploader-child/uploader-child.component';
 
 @Component({
     selector: 'uploader',
