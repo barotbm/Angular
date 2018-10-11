@@ -6,3 +6,4 @@ Styles = Styles in WPF
 Directive = Behavior in WPF
 Router-Outlet = ContentControl in WPF
 Pipes = StringFormat in WPF, A custom pipe can also work like a Converter in WPF where in we can apply custom logic in order to convert the values
+@Input = DP in WPF
