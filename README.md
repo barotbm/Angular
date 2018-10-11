@@ -10,6 +10,19 @@ https://docs.microsoft.com/en-us/dotnet/core/get-started?tabs=windows
 3) SQL Server 2017 Express Edition:
 https://www.microsoft.com/en-us/sql-server/sql-server-downloads
 
+# Folder structure and understandig of different files
+
+1) Src (Source folder): 
+  1.1) Index.html - It defines the starting point of the application. Mainly it's the app.component ("app-root tag") but we can change it per requirement.
+  1.2) Main.ts - Bootstarps the angular app.
+  1.3) Style.css - Contains the top level styles of the app
+  1.4) Assets - stores images and other resources for the app
+  
+
+2) e2e (End to end testing folder):
+
+
+
 # Content
 
 The first thing is to understand the architecture that revolves around Component and Modules and then to explore different scenarios as mentioned below:
